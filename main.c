@@ -40,7 +40,6 @@ int main() {
     Person p3 = {"Federico", 29};
     Person p4 = {"Francesco", 23};
     Person p5 = {"Giacomo", 22};
-    Person p6 = {"Ricchione", 22};
     Person *listPerson[MAX_SIZE] = {NULL};
 
     insert(p1, listPerson);
@@ -48,7 +47,6 @@ int main() {
     insert(p3, listPerson);
     insert(p4, listPerson);
     insert(p5, listPerson);
-    insert(p6, listPerson);
 
     printAll(listPerson);
 }
